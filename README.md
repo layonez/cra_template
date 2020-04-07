@@ -5,6 +5,12 @@ https://reactjs.org/docs/strict-mode.html
 https://github.com/arackaf/customize-cra
 https://github.com/timarney/react-app-rewired
 
+### https://github.com/reach/router
+
+I decide to go with [@reach/router](https://reach.tech/router/) as it simple and supports new features that are not yet included in the stable release of react-router. Guys from react-router post recomendations on its official docs site:
+
+> If you only have a few routes you may want to pick @reach/router. The @reach/router API looks slightly more like the new API so it'll be easier to migrate in one commit.
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts

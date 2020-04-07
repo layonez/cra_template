@@ -1,9 +1,10 @@
 import React from "react";
 import CssBaseline from "@material-ui/core/CssBaseline";
-import {BrowserRouter as Router} from "react-router-dom";
+
 import useMediaQuery from "@material-ui/core/useMediaQuery";
 import {createMuiTheme, ThemeProvider} from "@material-ui/core/styles";
 import {purple, blueGrey} from "@material-ui/core/colors";
+import {LocationProvider} from "@reach/router";
 
 export default function Root({children}) {
   const prefersDarkMode = useMediaQuery("(prefers-color-scheme: dark)");
@@ -24,9 +25,9 @@ export default function Root({children}) {
   return (
     <>
       <CssBaseline />
-      <Router>
+      <LocationProvider>
         <ThemeProvider theme={theme}>{children}</ThemeProvider>
-      </Router>
+      </LocationProvider>
     </>
   );
 }
