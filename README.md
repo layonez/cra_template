@@ -1,3 +1,10 @@
+What is used here and why:
+
+https://reactjs.org/docs/strict-mode.html
+
+https://github.com/arackaf/customize-cra
+https://github.com/timarney/react-app-rewired
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
